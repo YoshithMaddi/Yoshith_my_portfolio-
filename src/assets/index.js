@@ -240,7 +240,12 @@ export const projectsData = [
     url: '/projects/image-9.jpg',
     tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
   },
-  
+  {
+    name: 'UrbanEatsDelights.com',
+    desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
+    url: '/projects/image-10.jpg',
+    tech: ['NextJS', 'ThreeJS'],
+  },
 ]
 
 export const projectsButton = [
@@ -319,7 +324,7 @@ export const questions = [
   {
     question: 'How much do you charge for a website?',
     answer:
-      'Our website packages usually range from £2997 £4997. However it really depends on what kind of website you need. We recently wrote a full guide on how much it costs for a website to give you an idea of the different options available.',
+      'Our website packages usually range from £2997 – £4997. However it really depends on what kind of website you need. We recently wrote a full guide on how much it costs for a website to give you an idea of the different options available.',
   },
   {
     question: 'Why are you so expensive?',
@@ -344,7 +349,7 @@ export const questions = [
   {
     question: 'What if I don’t like the website?',
     answer:
-      'Youre in luck. We offer a risk-free guarantee. Before we build your new website, we’ll design a mockup of your homepage. We’ll design a layout in Photoshop first, that way you’ll get to see our initial designs within approximately ten days. This is your opportunity to give us feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.',
+      'You’re in luck. We offer a risk-free guarantee. Before we build your new website, we’ll design a mockup of your homepage. We’ll design a layout in Photoshop first, that way you’ll get to see our initial designs within approximately ten days. This is your opportunity to give us feedback and if you really don’t like it, you don’t have to move forward. Best part is, this won’t cost you anything.',
   },
   {
     question: 'Do you offer a payment schedule?',
