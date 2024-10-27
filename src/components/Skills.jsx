@@ -9,8 +9,8 @@ const Skills = () =>{
         visible: (i) => ({
             opacity: 1,
             y: 0,
-            transition: {   // corrected 'transition' spelling
-                delay: 0.3 + i * 0.07,
+            transition: {   
+                delay: 0.3 + i * 0.04,
             },
         }),
         hidden: {
@@ -28,7 +28,7 @@ const Skills = () =>{
                         variants={variants} 
                         initial="hidden"
                         whileInView="visible"
-                        whileHover={{scale:1.1}}
+                        whileHover={{scale:1.15}}
                         viewport={{margin:"50px",once:true }}
                         key={i} 
                         className="flex items-center justify-center gap-x-3 rounded-xl border border-yellow-500 bg-zinc-200 px-5 py-2 lg:px-2"
