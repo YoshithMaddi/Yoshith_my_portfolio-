@@ -19,7 +19,7 @@ const Experience = () => {
 
     return (
       <div id="experience" className='relative py-20 '>
-        <Heading text={'Experience and Education'}/>
+        <Heading text={'Education'}/>
         <Image src={"/education.png"} alt={"experience image"} width={400} height={400} className='absolute -top-4 right-0 opacity-70 lg:hidden'/>
         
         <div ref={containerRef} className=' relative w-full h-full flex flex-col items-center justify-center gap-y-10 lg:gap-y-20 py-10'>
@@ -36,11 +36,11 @@ const Experience = () => {
                 >
                   <h1 className="text-xl sm:text-lg font-light text-gray-700">{data.title}</h1>
                   <p className="text-gray-800 dark:text-gray-100">
-                      <span className="block font-light">Education</span>
+                      <span className="block font-light">Course :</span>
                       <span className="block pl-2 font-extralight">{data.education}</span>
                   </p>
                   <div className="text-gray-800 dark:text-gray-200 transition-colors">
-                      <span className="font-light">Experience</span>
+                      <span className="font-light">Experience:</span>
                       <ul className="pl-2">
                           {data.experience.map((exp, j) => (
                             <li key={j} className="my-1 font-extralight">{exp}</li>
@@ -53,7 +53,7 @@ const Experience = () => {
                 </motion.div>
                 
                 <div className={`w-14 z-10 bg-white absolute top-20 border border-gray-300 rounded-full aspect-square grid place-items-center text-red-400 font-light -translate-y-1/2 ${i % 2 === 0 ? "left-full -translate-x-1/2 lg:left-1/2" : "right-full translate-x-1/2 lg:right-1/2"}`}>
-                  {date - experienceData.length + i + 1}
+                  {data.year}
                 </div>
               </div>
           ))}

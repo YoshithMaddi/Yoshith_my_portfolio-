@@ -1,5 +1,5 @@
 'use client'
-import { heroIcons } from '@/assets'
+import { heroIconss } from '@/assets'
 import { useMotionTemplate, useMotionValue, motion, useTransform, useSpring } from 'framer-motion'
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
@@ -51,9 +51,9 @@ const Hero = () => {
                     <h1 className='text-center text-3xl font-bold tracking-wider text-gray-500 dark:text-white transtion-colors'>My name is Yoshith Maddi &</h1>
                     <p className='text-lg tracking-wider text-gray-700 sm:text-2xl dark:text-gray-200 transtion-colors'>I like programming 😀</p>
                 </motion.div>
-                <motion.div initial={{opacity:0,y:100}} animate={{opacity:1,y:0}} transition={{delay:0.}} className='mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600c sm:text-2xl'>
-                    {heroIcons.map((icon, i) => (
-                        <a href="#" key={i} className='rounded-lg hover:bg-red-400 hover:text-white transition-colors'>{icon}</a>
+                <motion.div initial={{opacity:0,y:100}} animate={{opacity:1,y:0}} transition={{delay:0.3}} className='mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600c sm:text-2xl'>
+                    {heroIconss.map((item, i) => (
+                        <a href={item.link} key={i} className='rounded-lg hover:bg-red-400 hover:text-white transition-colors'>{item.icon}</a>
                     ))}
                 </motion.div>
                 <motion.a initial={{opacity:0,x:-30}} animate={{opacity:1,x:0}} transition={{delay:0.7}} href="#" className='mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors'
