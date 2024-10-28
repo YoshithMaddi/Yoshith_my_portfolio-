@@ -19,11 +19,11 @@ const Projects = () => {
       animate(buttonRef.current[index], { opacity: 1, scale: 1.2 });
     }
   };
-
+  
   useEffect(() => {
     handleClick();
     prevIndex.current = index;
-  }, []);
+  }, [index]);
 
   return (
     <div id="projects" className="min-h-screen py-20 ">

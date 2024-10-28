@@ -40,12 +40,12 @@ const Hero = () => {
                     <motion.div className="flex items-center justify-center"
                         style={{ rotateX: mousemove ? rotatex : 0, rotateY: mousemove ? rotatey : 0, transition: '0.1s' }}>
                         <Image src={'/person.png'} alt='Person Image' width={400} height={400} priority={true} className="h-auto w-[150px]" />
-                        <motion.span className='absolute text-3xl font-semibold text-white'
+                        <motion.span className='absolute text-3xl font-semibold text-black'
                             initial={{ scale: 0 }} 
                             animate={{ opacity: buttonhover ? 0 : 1, scale: buttonhover ? 2 : 0, y: buttonhover ? -40 : 0 }}
                             transition={{ opacity: { delay: 0.4 }, scale: { duration: 0.2 } }}  // Corrected transition format
                         >
-                            Hi
+                            Hii..
                         </motion.span>
                     </motion.div>
                     <h1 className='text-center text-3xl font-bold tracking-wider text-gray-500 dark:text-white transtion-colors'>My name is Yoshith Maddi &</h1>
@@ -53,7 +53,8 @@ const Hero = () => {
                 </motion.div>
                 <motion.div initial={{opacity:0,y:100}} animate={{opacity:1,y:0}} transition={{delay:0.3}} className='mt-8 flex justify-center gap-x-10 text-3xl text-yellow-600c sm:text-2xl'>
                     {heroIconss.map((item, i) => (
-                        <a href={item.link} key={i} className='rounded-lg hover:bg-red-400 hover:text-white transition-colors'>{item.icon}</a>
+                        <a href={item.link} key={i} target="_blank" 
+                        rel="noopener noreferrer" className='rounded-lg hover:bg-red-400 hover:text-white transition-colors'>{item.icon}</a>
                     ))}
                 </motion.div>
                 <motion.a initial={{opacity:0,x:-30}} animate={{opacity:1,x:0}} transition={{delay:0.7}} href="#" className='mx-auto mt-7 block w-max rounded-lg bg-red-400 px-3 py-1 font-light capitalize tracking-wider text-white hover:bg-red-500 transition-colors'

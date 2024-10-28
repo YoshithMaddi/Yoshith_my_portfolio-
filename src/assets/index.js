@@ -3,11 +3,16 @@ import InstagramLineIcon from 'remixicon-react/InstagramLineIcon'
 import FacebookCircleLineIcon from 'remixicon-react/FacebookCircleLineIcon'
 import MailLineIcon from 'remixicon-react/MailLineIcon';
 import GithubLineIcon from 'remixicon-react/GithubLineIcon'
+import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 
 export const heroIconss = [
   { 
     link: "mailto:yoshithmy23@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%20Yoshith,", 
     icon: <MailLineIcon key="f" /> 
+  },
+  {
+    link:"https://www.linkedin.com/in/yoshith-maddi-my2003",
+    icon :  <LinkedinFillIcon key="d"/>
   },
   {
     icon:<InstagramLineIcon  key={'a'}/>,
@@ -37,6 +42,7 @@ export const aboutData = [
     amount: 10,
     icon: <GithubFillIcon />,
   },
+  
   {
     title: 'Successful Projects',
     amount: 227,
