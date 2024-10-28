@@ -34,6 +34,7 @@ const Contact = () => {
     setTimeout(() => setNotification({ message: "", type: "" }), 3000);
   };
 
+  
   return (
     <div id="contact" className="h-screen lg:h-auto lg:py-40 py-20 xs:pb-20">
       <Heading text={'Get in touch'} />
