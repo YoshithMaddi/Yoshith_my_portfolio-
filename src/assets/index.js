@@ -188,64 +188,75 @@ export const experienceData = [
 
 export const projectsData = [
   {
-    name: 'SparkleGrove.com',
-    desc: 'A lifestyle blog featuring DIY crafts, home decor ideas, and inspiration for creating a cozy and stylish living space.',
+    name: 'Weather application',
+    desc: 'This React-based weather application fetches real-time weather data using an API  and displays the current weather conditions for a specified city with temperature.',
     url: '/projects/image-1.jpg',
-    tech: ['Figma', 'Photoshop', 'HTML'],
+    tech: ['JavaScript', 'CSS', 'HTML'],
+    link:'',
   },
   {
     name: 'TechTrekker.net',
     desc: 'A technology news and review site covering the latest gadgets, software updates, and trends in the tech industry.',
     url: '/projects/image-2.jpg',
     tech: ['Figma', 'Photoshop'],
+    link:'',
   },
   {
     name: 'CozyNestHomes.org',
     desc: 'A resource for homeowners and renters alike, offering tips on interior design, home improvement projects, and sustainable living practices.',
     url: '/projects/image-3.jpg',
     tech: ['HTML', 'CSS', 'JavaScript'],
+    link:'',
   },
   {
     name: 'WanderLuxeTravels.co',
     desc: 'A travel website that provides luxury travel guides, destination reviews, and tips for planning unforgettable vacations.',
     url: '/projects/image-4.jpg',
     tech: ['HTML', 'CSS', 'JavaScript', 'TailwindCSS'],
+    link:'',
   },
   {
     name: 'ByteBoosters.io',
     desc: 'A tech startup specializing in software development, offering innovative solutions and services for businesses looking to enhance their digital presence.',
     url: '/projects/image-5.jpg',
     tech: ['Figma', 'ReactJS', 'TailwindCSS', 'CSS'],
+    link:'',
   },
   {
     name: 'GreenLeafGardens.biz',
     desc: 'An online store and community hub for gardening enthusiasts, featuring a wide range of plants, gardening tools, and expert advice.',
     url: '/projects/image-6.jpg',
     tech: ['ReactJS', 'TailwindCSS', , 'CSS', 'FramerMotion'],
+    link:'',
   },
   {
     name: 'PixelPerfectDesigns.info',
     desc: 'A graphic design portfolio showcasing the work of a freelance designer, including branding, web design, and illustration projects.',
     url: '/projects/image-7.jpg',
     tech: ['NextJS', 'FramerMotion'],
+    linl:'',
   },
   {
     name: 'HarmonyHealthHub.com',
     desc: ' A wellness website focused on holistic health, offering articles on nutrition, fitness, mental health, and alternative therapies.',
     url: '/projects/image-8.jpg',
     tech: ['NextJS', 'ReactJS', 'FramerMotion'],
+    linl:'',
   },
   {
     name: 'StellarSkiesAstronomy.org',
     desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
     url: '/projects/image-9.jpg',
     tech: ['ReactJS', 'JavaScript', 'ThreeJS'],
+    linl:'',
   },
   {
     name: 'UrbanEatsDelights.com',
     desc: 'An educational site dedicated to astronomy, providing resources for amateur astronomers, star maps, and information on celestial events.',
     url: '/projects/image-10.jpg',
     tech: ['NextJS', 'ThreeJS'],
+    linl:'',
+
   },
 ]
 

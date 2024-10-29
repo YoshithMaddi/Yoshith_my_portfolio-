@@ -2,8 +2,10 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { useState } from "react"
+import ArrowRightUpLineIcon from 'remixicon-react/ArrowRightUpLineIcon';
+
 const Project = ({data,index}) => {
-    const [show,setShow]=useState(false)
+  const [show,setShow]=useState(false)
     
   return (
     <motion.div initial={{opacity:0,y:index%2===0?100:-100}}
@@ -16,6 +18,7 @@ const Project = ({data,index}) => {
       <motion.div initial={{opacity:0}} animate={{opacity:show?1:0}} className="absolute top-0 w-full h-full flex flex-col  items-center justify-center gap-y-2 bg-white/95 p-6 rounded-lg dark:bg-gray-700/95 transition-colors  ">
         <h2 className="text-lg font-bold tracking-wide text-gray-500 dark:text-white transition-colors">{data.name}</h2>
         <p className="text-justify text-gray-500 first-letter:pl-2 dark:text-gray-100 transition-colors ">{data.desc}</p>
+        <a href="#"  className="dark:text-white rounded-full p-3 inline-flex items-center justify-center text-white hover:scale-1.4 transition duration-300"><ArrowRightUpLineIcon/></a>
       </motion.div>
     </motion.div>
   )

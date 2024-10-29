@@ -37,7 +37,7 @@ const Contact = () => {
   
   return (
     <div id="contact" className="h-screen lg:h-auto lg:py-40 py-20 xs:pb-20">
-      <Heading text={'Get in touch'} />
+      <Heading text={"Let's Work Together" } />
       <div className="w-full h-full my-auto flex lg:flex-col items-center justify-between lg:justify-center gap-x-20 lg:gap-x-0">
         <motion.div initial={{ opacity: 0, y: 150 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }} viewport={{ once: true }}>
           <Image 
