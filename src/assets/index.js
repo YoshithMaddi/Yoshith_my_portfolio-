@@ -37,27 +37,26 @@ import GroupLineIcon from 'remixicon-react/GroupLineIcon'
 import AwardFillIcon from 'remixicon-react/AwardFillIcon'
 
 export const aboutData = [
-  {
-    title: 'Github Repos',
-    amount: 10,
-    icon: <GithubFillIcon />,
-  },
-  
-  {
-    title: 'Successful Projects',
-    amount: 227,
-    icon: <Projector2LineIcon />,
-  },
-  {
-    title: 'Satisfied clients',
-    amount: 176,
-    icon: <GroupLineIcon />,
-  },
-  {
-    title: 'Awards and Recognition',
-    amount: 107,
-    icon: <AwardFillIcon />,
-  },
+  // {
+  //   title: 'Github Repos',
+  //   amount: 10,
+  //   icon: <GithubFillIcon />,
+  // },
+  // {
+  //   title: 'Successful Projects',
+  //   amount: 227,
+  //   icon: <Projector2LineIcon />,
+  // },
+  // {
+  //   title: 'Satisfied clients',
+  //   amount: 176,
+  //   icon: <GroupLineIcon />,
+  // },
+  // {
+  //   title: 'Coding ',
+  //   amount: 107,
+  //   icon: <AwardFillIcon />,
+  // },
 ]
 
 import DownloadLineIcon from 'remixicon-react/DownloadLineIcon'
@@ -190,7 +189,7 @@ export const projectsData = [
   {
     name: 'Weather application',
     desc: 'This React-based weather application fetches real-time weather data using an API  and displays the current weather conditions for a specified city with temperature.',
-    url: '/projects/image-1.jpg',
+    url: '/projects/image-1.png',
     tech: ['JavaScript', 'CSS', 'HTML'],
     link:'',
   },
