@@ -20,6 +20,55 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+##📄 File structure
+```bash
+Yoshith_my_portfolio-/
+│
+├── public/                      # Static files (images, icons, etc.)
+│   ├── assets/
+│   │   ├── profile_img.svg
+│   │   ├── arrowLefticon.svg
+│   │   ├── copyRightIcon.svg
+│   │   └── ...others
+│
+├── src/                         # Main application source code
+│   ├── components/              # Reusable components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Achievements.jsx
+│   │   └── ...others
+│
+│   ├── data/                    # Static data files (JS/JSON)
+│   │   ├── skillsData.js
+│   │   ├── projectsData.js
+│   │   └── ...others
+│
+│   ├── pages/                   # Page-level components (Next.js)
+│   │   ├── index.jsx
+│   │   ├── about.jsx
+│   │   └── ...other pages
+│
+│   ├── styles/                  # Custom CSS or Tailwind extensions
+│   │   └── globals.css
+│
+│   ├── utils/                   # Utility/helper functions
+│   │   └── emailService.js      # For email functionality
+│
+│   ├── context/                 # Context providers (e.g., ThemeContext)
+│   │   └── ThemeContext.jsx
+│
+│   └── App.jsx / layout.jsx     # Root component (based on framework)
+│
+├── .gitignore
+├── README.md
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── next.config.js (if Next.js)
+└── vercel.json (if deploying on Vercel)
+
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
