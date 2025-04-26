@@ -20,44 +20,44 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-##📄 File structure
+## 📄File structure
 ```bash
 Yoshith_my_portfolio-/
 │
-├── public/                      # Static files (images, icons, etc.)
+├── public/                     
 │   ├── assets/
 │   │   ├── profile_img.svg
 │   │   ├── arrowLefticon.svg
 │   │   ├── copyRightIcon.svg
 │   │   └── ...others
 │
-├── src/                         # Main application source code
-│   ├── components/              # Reusable components
+├── src/                         
+│   ├── components/              
 │   │   ├── Navbar.jsx
 │   │   ├── Footer.jsx
 │   │   ├── Achievements.jsx
 │   │   └── ...others
 │
-│   ├── data/                    # Static data files (JS/JSON)
+│   ├── data/                    
 │   │   ├── skillsData.js
 │   │   ├── projectsData.js
 │   │   └── ...others
 │
-│   ├── pages/                   # Page-level components (Next.js)
+│   ├── pages/                  
 │   │   ├── index.jsx
 │   │   ├── about.jsx
 │   │   └── ...other pages
 │
-│   ├── styles/                  # Custom CSS or Tailwind extensions
+│   ├── styles/                  
 │   │   └── globals.css
 │
-│   ├── utils/                   # Utility/helper functions
-│   │   └── emailService.js      # For email functionality
+│   ├── utils/                   
+│   │   └── emailService.js      
 │
-│   ├── context/                 # Context providers (e.g., ThemeContext)
+│   ├── context/                
 │   │   └── ThemeContext.jsx
 │
-│   └── App.jsx / layout.jsx     # Root component (based on framework)
+│   └── App.jsx / layout.jsx     
 │
 ├── .gitignore
 ├── README.md
